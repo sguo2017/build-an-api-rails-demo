@@ -6,10 +6,10 @@ class Api::V1::BaseController < ApplicationController
 
   attr_accessor :current_user
   
- 
+  # 禁用 the CSRF token
   protect_from_forgery with: :null_session
 
-  
+  # 禁用 cookies (no set-cookies header in response)
   before_action :destroy_session
 
   rescue_from Pundit::NotAuthorizedError, with: :deny_access
