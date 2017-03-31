@@ -18,7 +18,8 @@ X-Runtime: 0.473434
 Transfer-Encoding: chunked
 
 {"session":{"id":1,"name":"gg-user","admin":false,"token":"FPWXu4379MHxJ1dEWhc8W9S0+ZfA7hCKoacnQmkJUE2nKBVcQdDD6UOmaLjmaNPcrIph2I0jXhlUaCwvJjJl+g=="}}
-*代码：
+
+* 代码：
 https://github.com/sguo2017/build-an-api-rails-demo/blob/master/app/controllers/api/v1/sessions_controller.rb
 
 
@@ -35,7 +36,7 @@ X-Request-Id: 818bd835-71f6-4eca-b6e4-8c09708a3a29
 X-Runtime: 0.040713
 Transfer-Encoding: chunked
 
-*代码：
+* 代码：
 https://github.com/sguo2017/build-an-api-rails-demo/blob/master/app/controllers/api/v1/base_controller.rb
 https://github.com/sguo2017/build-an-api-rails-demo/blob/master/app/controllers/api/v1/users_controller.rb
 
