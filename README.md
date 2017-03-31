@@ -5,6 +5,7 @@
 
 
 * curl -i -X POST -d "user[email]=test-user-00@mail.com&user[password]=123123" http://localhost:3000/api/v1/sessions.json
+
 HTTP/1.1 200 OK
 X-Frame-Options: SAMEORIGIN
 X-XSS-Protection: 1; mode=block
@@ -19,6 +20,7 @@ Transfer-Encoding: chunked
 {"session":{"id":1,"name":"gg-user","admin":false,"token":"FPWXu4379MHxJ1dEWhc8W9S0+ZfA7hCKoacnQmkJUE2nKBVcQdDD6UOmaLjmaNPcrIph2I0jXhlUaCwvJjJl+g=="}}
 
 * curl -i -X PUT -d "user[name]=gg-sguo" --header "Authorization: Token token=FPWXu4379MHxJ1dEWhc8W9S0+ZfA7hCKoacnQmkJUE2nKBVcQdDD6UOmaLjmaNPcrIph2I0jXhlUaCwvJjJl+g==,  email=test-user-00@mail.com"   http://localhost:3000/api/v1/users/1
+
 HTTP/1.1 200 OK
 X-Frame-Options: SAMEORIGIN
 X-XSS-Protection: 1; mode=block
