@@ -3,6 +3,10 @@
 ## 启动
 * rails s -b 0.0.0.0 
 
+## 路由
+![rails info](https://github.com/sguo2017/build-an-api-rails-demo/blob/master/public/routes.png)
+
+
 ## 登录
 
 * 调用：curl -i -X POST -d "user[email]=test-user-00@mail.com&user[password]=123123" http://localhost:3000/api/v1/sessions.json
