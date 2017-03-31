@@ -34,3 +34,9 @@ Transfer-Encoding: chunked
 {"session":{"id":1,"name":"gg-user","admin":false,"token":"FPWXu4379MHxJ1dEWhc8W9S0+ZfA7hCKoacnQmkJUE2nKBVcQdDD6UOmaLjmaNPcrIph2I0jX
 * Services (job queues, cache servers, search engines, etc.)
 
+
+
+
+
+参考：
+https://ruby-china.org/topics/25822
