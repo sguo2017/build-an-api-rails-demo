@@ -1,8 +1,9 @@
-# README
+# rails作为api端使用
 
-
+## 启动
 * rails s -b 0.0.0.0 
 
+## 登录
 
 * 调用：curl -i -X POST -d "user[email]=test-user-00@mail.com&user[password]=123123" http://localhost:3000/api/v1/sessions.json
 
@@ -23,7 +24,7 @@ Transfer-Encoding: chunked
 https://github.com/sguo2017/build-an-api-rails-demo/blob/master/app/controllers/api/v1/sessions_controller.rb
 
 
-* curl -i -X PUT -d "user[name]=gg-sguo" --header "Authorization: Token token=FPWXu4379MHxJ1dEWhc8W9S0+ZfA7hCKoacnQmkJUE2nKBVcQdDD6UOmaLjmaNPcrIph2I0jXhlUaCwvJjJl+g==,  email=test-user-00@mail.com"  ：https://github.com/sguo2017/build-an-api-rails-demo/blob/master/app/controllers/api/v1/base_controller.rb http://localhost:3000/api/v1/users/1
+* curl -i -X PUT -d "user[name]=gg-sguo" --header "Authorization: Token token=FPWXu4379MHxJ1dEWhc8W9S0+ZfA7hCKoacnQmkJUE2nKBVcQdDD6UOmaLjmaNPcrIph2I0jXhlUaCwvJjJl+g==,  [email=test-user-00@mail.com](#email=test-user-00@mail.com)"  ：https://github.com/sguo2017/build-an-api-rails-demo/blob/master/app/controllers/api/v1/base_controller.rb http://localhost:3000/api/v1/users/1
 
 HTTP/1.1 200 OK
 X-Frame-Options: SAMEORIGIN
