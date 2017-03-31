@@ -23,9 +23,10 @@ Transfer-Encoding: chunked
 * 代码：
 https://github.com/sguo2017/build-an-api-rails-demo/blob/master/app/controllers/api/v1/sessions_controller.rb
 
+## 修改邮箱地址
+* curl -i -X PUT -d "user[name]=gg-sguo" --header "Authorization: Token token=FPWXu4379MHxJ1dEWhc8W9S0+ZfA7hCKoacnQmkJUE2nKBVcQdDD6UOmaLjmaNPcrIph2I0jXhlUaCwvJjJl+g==,  email=test-user-00@mail.com"   http://localhost:3000/api/v1/users/1
 
-* curl -i -X PUT -d "user[name]=gg-sguo" --header "Authorization: Token token=FPWXu4379MHxJ1dEWhc8W9S0+ZfA7hCKoacnQmkJUE2nKBVcQdDD6UOmaLjmaNPcrIph2I0jXhlUaCwvJjJl+g==,  [#email=test-user-00@mail.com]"  ：https://github.com/sguo2017/build-an-api-rails-demo/blob/master/app/controllers/api/v1/base_controller.rb http://localhost:3000/api/v1/users/1
-
+* 返回 
 HTTP/1.1 200 OK
 X-Frame-Options: SAMEORIGIN
 X-XSS-Protection: 1; mode=block
