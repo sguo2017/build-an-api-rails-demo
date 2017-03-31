@@ -6,6 +6,8 @@
 ## 路由
 ![rails info](https://github.com/sguo2017/build-an-api-rails-demo/blob/master/public/routes.png)
 
+*https://github.com/sguo2017/build-an-api-rails-demo/blob/master/config/routes.rb
+
 
 ## 登录
 
